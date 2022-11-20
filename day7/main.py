@@ -1,5 +1,3 @@
-#Step 5
-
 import random
 # import 'word_list' from hangman_words.py
 from hangman_words import word_list
