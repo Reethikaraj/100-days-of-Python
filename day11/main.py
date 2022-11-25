@@ -50,9 +50,10 @@ def play():
           user_cards.append(card_3)
         else:
            user_cards.append(1)
-      user_cards.append(card_3)
-      print(f'Your cards:  {user_cards}')
-    print(f"Computer's cards: {dealer_cards}")  
+      else:
+        user_cards.append(card_3)
+    print(f'Your final cards:  {user_cards}')
+    print(f"Computer's final cards: {dealer_cards}")  
     final_user_score = 0
     final_computer_score = 0
     for card in user_cards:
